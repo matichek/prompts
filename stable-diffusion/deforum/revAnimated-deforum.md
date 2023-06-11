@@ -55,6 +55,45 @@ amount schedule
 "480": "masterpiece, astronauts, drinking coffee and relaxing, epic scene, vibrant colors, full hd, full body, dynamic lighting, ultra-high detail, dramatic lighting, movie poster style, asymmetric composition, photorealistic, unreal engine, concept art"
 }
 
+10s - 15fps - 150frames
+
+anything-v4.0
+
+1girl, outdoors, viewing sunrise, viewing back, drinking coffee, brown hair, beautiful, cute, city, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic
+Negative prompt: easynegative, lowres, ((bad anatomy)), ((bad hands)), text, missing finger, extra digits, fewer digits, blurry, ((mutated hands and fingers)), (poorly drawn face), ((mutation)), ((deformed face)), (ugly), ((bad proportions)), ((extra limbs)), extra face, (double head), (extra head), ((extra feet)), monster, logo, cropped, worst quality, low quality, normal quality, jpeg, humpbacked, long body, long neck, ((jpeg artifacts)), (monochrome:1.1), lie, hands upmited palett
+Steps: 86, Sampler: Euler a, CFG scale: 7, Seed: 1371371373, Size: 1024x1024, Model hash: 3b26c9c497, Denoising strength: 0.36, Clip skip: 2, Ultimate SD upscale upscaler: RealESRGAN_x4plus_anime_6B, Ultimate SD upscale tile_width: 512, Ultimate SD upscale tile_height: 512, Ultimate SD upscale mask_blur: 8, Ultimate SD upscale padding: 32, ControlNet 0: "preprocessor: tile_resample, model: control_v11f1e_sd15_tile [a371b31b], weight: 1, starting/ending: (0, 1), resize mode: Crop and Resize, pixel perfect: True, control mode: Balanced, preprocessor params: (64, 1, 64)"
+
+{
+    "0": "1girl, outdoors, viewing sunrise, viewing back, drinking coffee, brown hair, beautiful, cute, city, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic",
+    "30": "1girl, outdoors, viewing sunrise, standing up, viewing back, brown hair, beautiful, cute, city, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic",
+    "60": "1girl, outdoors, viewing sunrise, walking, outside, park, brown hair, beautiful, cute, city, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic",
+    "90": "1girl, outdoors, evening, walking, park, brown hair, beautiful, cute, city, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic",
+    "120": "1girl, outdoors, night, walking, park, brown hair, beautiful, cute, city, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic"
+}
+
+Negative prompt:
+nsfw, nude,  easynegative, lowres, ((bad anatomy)), ((bad hands)), text, missing finger, extra digits, fewer digits, blurry, ((mutated hands and fingers)), (poorly drawn face), ((mutation)), ((deformed face)), (ugly), ((bad proportions)), ((extra limbs)), extra face, (double head), (extra head), ((extra feet)), monster, logo, cropped, worst quality, low quality, normal quality, jpeg, humpbacked, long body, long neck, ((jpeg artifacts)), (monochrome:1.1), lie, hands upmited palett
+
+"Dark sushi Mix" test
+https://civitai.com/models/24779/dark-sushi-mix-mix
+
+Main prompt:
+octans, sky, star (sky), scenery, starry sky, night, 1girl, night sky, solo, outdoors, signature, building, cloud, milky way, sitting, tree, long hair, city, silhouette, cityscape，masterpiece, best quality, ,halftone,cloud, light_particles, space, sky,water,girl,night
+Negative prompt: 2girl,(EasyNegative)，(((simple background))),monochrome ,lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, lowres, bad anatomy, bad hands, text, error, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, ugly,pregnant,vore,duplicate,morbid,mut ilated,tran nsexual, hermaphrodite,long neck,mutated hands,poorly drawn hands,poorly drawn face,mutation,deformed,blurry,bad anatomy,bad proportions,malformed limbs,extra limbs,cloned face,disfigured,gross proportions, (((missing arms))),(((missing legs))), (((extra arms))),(((extra legs))),pubic hair, plump,bad legs,error legs,username,blurry,bad feet
+Steps: 20, Sampler: DPM++ SDE Karras, CFG scale: 7, Seed: 3380870324, Size: 768x512, Model hash: cca17b08da, Model: MAADBD2fp16, Denoising strength: 0.5, Clip skip: 2, Wildcard negative prompt: "2girl,(EasyNegative)，(((simple background))),monochrome ,lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, lowres, bad anatomy, bad hands, text, error, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, ugly,pregnant,vore,duplicate,morbid,mut ilated,tran nsexual, hermaphrodite,long neck,mutated hands,poorly drawn hands,poorly drawn face,mutation,deformed,blurry,bad anatomy,bad proportions,malformed limbs,extra limbs,cloned face,disfigured,gross proportions, (((missing arms))),(((missing legs))), (((extra arms))),(((extra legs))),pubic hair, plump,bad legs,error legs,username,blurry,bad feet", Hires upscale: 2, Hires steps: 20, Hires upscaler: Latent, Version: v1.3.2
+
+{
+    "0": "octans, sky, star (sky), scenery, starry sky, night, 1girl, night sky, solo, outdoors, signature, building, cloud, milky way, sitting, tree, long hair, city, silhouette, cityscape，masterpiece, best quality, ,halftone,cloud, light_particles, space, sky,water,girl,night",
+    "30": "octans, sky, star (sky), scenery, starry sky, night, 1girl, night sky, solo, outdoors, signature, building, cloud, milky way, sitting, tree, long hair, city, silhouette, cityscape，masterpiece, best quality, ,halftone, cloud, light_particles, space, sky, water,girl,night",
+    "60": "octans, sky, star (sky), scenery, starry sky, night, 1girl, night sky, solo, outdoors, signature, building, cloud, milky way, sitting, tree, long hair, city, silhouette, cityscape，masterpiece, best quality, ,halftone, cloud, light_particles, space, sky, water,girl,night",
+    "90": "octans, sky, star (sky), scenery, starry sky, night, 1girl, night sky, solo, outdoors, signature, building, cloud, milky way, sitting, tree, long hair, city, silhouette, cityscape，masterpiece, best quality, ,halftone, cloud, light_particles, space, sky, water,girl,night",
+    "120": "1octans, sky, star (sky), scenery, starry sky, night, 1girl, night sky, solo, outdoors, signature, building, cloud, milky way, sitting, tree, long hair, city, silhouette, cityscape，masterpiece, best quality, ,halftone, cloud, light_particles, space, sky, water,girl,night"
+}
+
+
+
+
+
 # Based on reference video
 
 ## Research - reddit
