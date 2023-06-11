@@ -57,7 +57,7 @@ amount schedule
 
 10s - 15fps - 150frames
 
-anything-v4.0
+### anything-v4.0
 
 1girl, outdoors, viewing sunrise, viewing back, drinking coffee, brown hair, beautiful, cute, city, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic
 Negative prompt: easynegative, lowres, ((bad anatomy)), ((bad hands)), text, missing finger, extra digits, fewer digits, blurry, ((mutated hands and fingers)), (poorly drawn face), ((mutation)), ((deformed face)), (ugly), ((bad proportions)), ((extra limbs)), extra face, (double head), (extra head), ((extra feet)), monster, logo, cropped, worst quality, low quality, normal quality, jpeg, humpbacked, long body, long neck, ((jpeg artifacts)), (monochrome:1.1), lie, hands upmited palett
@@ -74,8 +74,11 @@ Steps: 86, Sampler: Euler a, CFG scale: 7, Seed: 1371371373, Size: 1024x1024, Mo
 Negative prompt:
 nsfw, nude,  easynegative, lowres, ((bad anatomy)), ((bad hands)), text, missing finger, extra digits, fewer digits, blurry, ((mutated hands and fingers)), (poorly drawn face), ((mutation)), ((deformed face)), (ugly), ((bad proportions)), ((extra limbs)), extra face, (double head), (extra head), ((extra feet)), monster, logo, cropped, worst quality, low quality, normal quality, jpeg, humpbacked, long body, long neck, ((jpeg artifacts)), (monochrome:1.1), lie, hands upmited palett
 
-"Dark sushi Mix" test
+### "Dark sushi Mix" test
 https://civitai.com/models/24779/dark-sushi-mix-mix
+
+* Generated video:
+https://www.youtube.com/shorts/MVdA_yu-WsA
 
 Main prompt:
 octans, sky, star (sky), scenery, starry sky, night, 1girl, night sky, solo, outdoors, signature, building, cloud, milky way, sitting, tree, long hair, city, silhouette, cityscape，masterpiece, best quality, ,halftone,cloud, light_particles, space, sky,water,girl,night
