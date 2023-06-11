@@ -94,5 +94,25 @@ If not, something I discovered that was pretty interesting was duplicating the s
 For walkthrough of that process and have clipped it from the starting point where he discusses this, see here: https://youtu.be/kmT-z2lqEPQ?t=1669
 
 
+Demo ref video:
+https://www.pexels.com/video/a-female-dancer-showing-her-dance-moves-5385878/
+
+revAnimated rules:
+
+Order matters - words near the front of your prompt are weighted more heavily than the things in the back of your prompt.
+Prompt order - content type > description > style > composition
+This model likes: ((best quality)), ((masterpiece)), (detailed) in beginning of prompt if you want anime-2.5D type
+This model does great on PORTRAITS
+
+img2img - tile scale 2x
+
+Grab all frames as png:
+https://www.youtube.com/watch?v=y5PGve7BqFc&t=59s
+
+
+
+
+
+
 ---
 
