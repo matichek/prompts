@@ -54,3 +54,45 @@ amount schedule
 "350": "masterpiece, astronout, landing on the planet Earth, calm, desert scene, epic scene, vibrant colors, full hd, full body, dynamic lighting, ultra-high detail, dramatic lighting, movie poster style, asymmetric composition, photorealistic, unreal engine, concept art",
 "480": "masterpiece, astronauts, drinking coffee and relaxing, epic scene, vibrant colors, full hd, full body, dynamic lighting, ultra-high detail, dramatic lighting, movie poster style, asymmetric composition, photorealistic, unreal engine, concept art"
 }
+
+# Based on reference video
+
+## Research - reddit
+
+---
+
+https://www.reddit.com/r/StableDiffusion/comments/12y7z7i/tiktok_girls_hot_dancing/
+
+I guess this kind of style would be idea - feels very organic and drawn. 
+
+* Chika dance
+(is this rotoscopping - - 3d animations made more choppy to look like anime 2d animation?)
+
+https://v.animethemes.moe/KaguyaSamaWaKokurasetai-ED2-NCBD1080.webm
+
+Most of my animations turn out so varied LOL. I would love to know how OP keeps consistency in the clothing (and everything). My attempt is not to replicate exactly what OP is doing but just get a consistent start somewhere. This is the workflow:
+
+DarkSushi25D (Also tried Dark Sushi v1) > Mov2Mov > prompt: masterpiece, best quality, anime - Negative: bad-hands-5, easynegative, verybadimagenegative_v1.3, (low quality, worst quality:1.3)
+
+Settings:
+CFG: 4 Denoise: 0.2 Movie Frames: 29.97 (It takes forever to render) Sampler: DDIM Seed is consistent (not -1)
+ControlNet 1.1.107 (Assume v1.1 pth and yaml files for all)
+ControlNet 0 - Softedge_pidinet > Softedge - weight 1 Guess Mode: Balanced
+ControlNet 1 - Openpose > openpose - weight 1 Guess Mode: Controlnet is more important
+ControlNet 2 - Canny > canny - weight 0.4 (full weight of 1 seems worse results) Guess Mode: controlnet is more important
+
+I've tried varying combinations of controlnet settings, only using canny, only using open pose, using openpose with softedge (the new HED), with little consistency in results. Short of training a LORA for each video (my 3080 doesn't seem to be able to process using dreambooth due to lack of memory, 12GB VRAM), I'm not sure how to get the clothes from changing so often.
+Any thoughts or feedback would be so appreciated.
+
+PS. OP your new "sketch" style video on YT from today is so great! Even if you don't want to share your workflow, it is still very much appreciated to see the new work and hope you keep doing what you're doing.
+
+* flickering issues
+
+I appreciate the feedback and will try it with 4 using your suggestions.
+Re: flicker, if you have Davinci Resolve Studio, you can do the deflicker fusion a la Corridor Labs walkthrough. 
+If not, something I discovered that was pretty interesting was duplicating the sequence in your video app (I'm using Resolve - sans Studio), then putting it on top of the original sequence, moving it over a single frame, then using a Darken composite at 50%. 
+For walkthrough of that process and have clipped it from the starting point where he discusses this, see here: https://youtu.be/kmT-z2lqEPQ?t=1669
+
+
+---
+
