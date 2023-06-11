@@ -59,24 +59,42 @@ amount schedule
 
 ### anything-v4.0
 
+#### Test 1 - zoom and pan
+
 1girl, outdoors, viewing sunrise, viewing back, drinking coffee, brown hair, beautiful, cute, city, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic
 Negative prompt: easynegative, lowres, ((bad anatomy)), ((bad hands)), text, missing finger, extra digits, fewer digits, blurry, ((mutated hands and fingers)), (poorly drawn face), ((mutation)), ((deformed face)), (ugly), ((bad proportions)), ((extra limbs)), extra face, (double head), (extra head), ((extra feet)), monster, logo, cropped, worst quality, low quality, normal quality, jpeg, humpbacked, long body, long neck, ((jpeg artifacts)), (monochrome:1.1), lie, hands upmited palett
 Steps: 86, Sampler: Euler a, CFG scale: 7, Seed: 1371371373, Size: 1024x1024, Model hash: 3b26c9c497, Denoising strength: 0.36, Clip skip: 2, Ultimate SD upscale upscaler: RealESRGAN_x4plus_anime_6B, Ultimate SD upscale tile_width: 512, Ultimate SD upscale tile_height: 512, Ultimate SD upscale mask_blur: 8, Ultimate SD upscale padding: 32, ControlNet 0: "preprocessor: tile_resample, model: control_v11f1e_sd15_tile [a371b31b], weight: 1, starting/ending: (0, 1), resize mode: Crop and Resize, pixel perfect: True, control mode: Balanced, preprocessor params: (64, 1, 64)"
 
 {
-    "0": "1girl, outdoors, viewing sunrise, viewing back, drinking coffee, brown hair, beautiful, cute, city, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic",
-    "30": "1girl, outdoors, viewing sunrise, standing up, viewing back, brown hair, beautiful, cute, city, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic",
-    "60": "1girl, outdoors, viewing sunrise, walking, outside, park, brown hair, beautiful, cute, city, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic",
-    "90": "1girl, outdoors, evening, walking, park, brown hair, beautiful, cute, city, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic",
-    "120": "1girl, outdoors, night, walking, park, brown hair, beautiful, cute, city, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic"
+    "0": "1girl, outdoors, viewing sunrise, viewing back, drinking coffee, brown hair, beautiful, cute, village, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic",
+    "30": "1girl, outdoors, viewing sunrise, standing up, viewing back, brown hair, beautiful, cute, village, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic",
+    "60": "1girl, outdoors, viewing sunrise, walking, outside, park, brown hair, beautiful, cute, village, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic",
+    "90": "1girl, outdoors, evening, walking, park, brown hair, beautiful, cute, village, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic",
+    "120": "1girl, outdoors, night, walking, park, brown hair, beautiful, cute, village, mountains, nekomimi, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, (girl focus), photorealism, realistic"
 }
 
 Negative prompt:
 nsfw, nude,  easynegative, lowres, ((bad anatomy)), ((bad hands)), text, missing finger, extra digits, fewer digits, blurry, ((mutated hands and fingers)), (poorly drawn face), ((mutation)), ((deformed face)), (ugly), ((bad proportions)), ((extra limbs)), extra face, (double head), (extra head), ((extra feet)), monster, logo, cropped, worst quality, low quality, normal quality, jpeg, humpbacked, long body, long neck, ((jpeg artifacts)), (monochrome:1.1), lie, hands upmited palett
 
+#### Test no2 - panning effect - Nature scene
+
+translation Z
+0:(0.2), 60:(0.4), 120:(0.5), 150:(0.6)
+
+{
+    "0": "masterpiece, mountains, outdoors, nature scene, cinematic, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, photorealism, realistic --neg nsfw, nude,  easynegative, lowres, ((bad anatomy)), ((bad hands)), text, missing finger, extra digits, fewer digits, blurry, ((mutated hands and fingers)), (poorly drawn face), ((mutation)), ((deformed face)), (ugly), ((bad proportions)), ((extra limbs)), extra face, (double head), (extra head), ((extra feet)), monster, logo, cropped, worst quality, low quality, normal quality, jpeg, humpbacked, long body, long neck, ((jpeg artifacts)), (monochrome:1.1), lie, hands upmited palett",
+    "30": "masterpiece, mountains, outdoors,  nature scene, cinematic, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, photorealism, realistic --neg nsfw, nude,  easynegative, lowres, ((bad anatomy)), ((bad hands)), text, missing finger, extra digits, fewer digits, blurry, ((mutated hands and fingers)), (poorly drawn face), ((mutation)), ((deformed face)), (ugly), ((bad proportions)), ((extra limbs)), extra face, (double head), (extra head), ((extra feet)), monster, logo, cropped, worst quality, low quality, normal quality, jpeg, humpbacked, long body, long neck, ((jpeg artifacts)), (monochrome:1.1), lie, hands upmited palett",
+    "60": "masterpiece, mountains, outdoors, walking, outside, park,  nature scene, cinematic, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, photorealism, realistic --neg nsfw, nude,  easynegative, lowres, ((bad anatomy)), ((bad hands)), text, missing finger, extra digits, fewer digits, blurry, ((mutated hands and fingers)), (poorly drawn face), ((mutation)), ((deformed face)), (ugly), ((bad proportions)), ((extra limbs)), extra face, (double head), (extra head), ((extra feet)), monster, logo, cropped, worst quality, low quality, normal quality, jpeg, humpbacked, long body, long neck, ((jpeg artifacts)), (monochrome:1.1), lie, hands upmited palett",
+    "90": "masterpiece, mountains, outdoors, evening, walking, park,  nature scene, cinematic, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, photorealism, realistic --neg nsfw, nude,  easynegative, lowres, ((bad anatomy)), ((bad hands)), text, missing finger, extra digits, fewer digits, blurry, ((mutated hands and fingers)), (poorly drawn face), ((mutation)), ((deformed face)), (ugly), ((bad proportions)), ((extra limbs)), extra face, (double head), (extra head), ((extra feet)), monster, logo, cropped, worst quality, low quality, normal quality, jpeg, humpbacked, long body, long neck, ((jpeg artifacts)), (monochrome:1.1), lie, hands upmited palett",
+    "120": "masterpiece, mountains, outdoors, night, walking, park,  nature scene, cinematic, photorealistic, fluffy clouds, photorealistic environment, cinematic, 8k, fisheye lens, photorealism, realistic --neg nsfw, nude,  easynegative, lowres, ((bad anatomy)), ((bad hands)), text, missing finger, extra digits, fewer digits, blurry, ((mutated hands and fingers)), (poorly drawn face), ((mutation)), ((deformed face)), (ugly), ((bad proportions)), ((extra limbs)), extra face, (double head), (extra head), ((extra feet)), monster, logo, cropped, worst quality, low quality, normal quality, jpeg, humpbacked, long body, long neck, ((jpeg artifacts)), (monochrome:1.1), lie, hands upmited palett"
+}
+
+
+
+
 ### "Dark sushi Mix" test
 https://civitai.com/models/24779/dark-sushi-mix-mix
-
+0:(0.2), 60:(10), 300:(15)
 * Generated video:
 https://www.youtube.com/shorts/MVdA_yu-WsA
 
