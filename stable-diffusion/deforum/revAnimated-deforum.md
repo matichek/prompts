@@ -1,3 +1,6 @@
+Original tutorial:
+https://www.youtube.com/watch?v=zUiz3T4luJw
+
 # Template for the video description
 
 {
@@ -110,6 +113,21 @@ Steps: 20, Sampler: DPM++ SDE Karras, CFG scale: 7, Seed: 3380870324, Size: 768x
     "90": "octans, sky, star (sky), scenery, starry sky, night, 1girl, night sky, solo, outdoors, signature, building, cloud, milky way, sitting, tree, long hair, city, silhouette, cityscape，masterpiece, best quality, ,halftone, cloud, light_particles, space, sky, water,girl,night",
     "120": "1octans, sky, star (sky), scenery, starry sky, night, 1girl, night sky, solo, outdoors, signature, building, cloud, milky way, sitting, tree, long hair, city, silhouette, cityscape，masterpiece, best quality, ,halftone, cloud, light_particles, space, sky, water,girl,night"
 }
+
+
+revAnimated
+
+{
+    "0": "masterpiece, DJ playing music, spaceship in the background, epic scene, vibrant colors, full hd, full body, dynamic lighting, ultra-high detail, dramatic lighting, movie poster style, asymmetric composition, photorealistic, unreal engine, concept art",
+    "30": "masterpiece, aDJ playing music, looking at the glowing sphere, epic scene, vibrant colors, full hd, full body, dynamic lighting, ultra-high detail, dramatic lighting, movie poster style, asymmetric composition, photorealistic, unreal engine, concept art",
+    "60": "masterpiece, DJ playing music, galaxy, mystery, epic scene, vibrant colors, full hd, full body, dynamic lighting, ultra-high detail, dramatic lighting, movie poster style, asymmetric composition, photorealistic, unreal engine, concept art",
+    "90": "masterpiece, DJ playing music, glowing blue, beautiful landspace, epic scene, vibrant colors, full hd, full body, dynamic lighting, ultra-high detail, dramatic lighting, movie poster style, asymmetric composition, photorealistic, unreal engine, concept art",
+    "150": "masterpiece, DJ playing music, glowing, heaven light, pyramids, epic scene, vibrant colors, full hd, full body, dynamic lighting, ultra-high detail, dramatic lighting, movie poster style, asymmetric composition, photorealistic, unreal engine, concept art",
+    "240": "masterpiece, DJ playing music, mountain in the distant, glowing light in the peak, epic scene, vibrant colors, full hd, full body, dynamic lighting, ultra-high detail, dramatic lighting, movie poster style, asymmetric composition, photorealistic, unreal engine, concept art",
+    "350": "masterpiece, DJ playing music, calm, desert scene, epic scene, vibrant colors, full hd, full body, dynamic lighting, ultra-high detail, dramatic lighting, movie poster style, asymmetric composition, photorealistic, unreal engine, concept art",
+    "480": "masterpiece, DJ playing music, epic scene, vibrant colors, full hd, full body, dynamic lighting, ultra-high detail, dramatic lighting, movie poster style, asymmetric composition, photorealistic, unreal engine, concept art"
+}
+
 
 
 
