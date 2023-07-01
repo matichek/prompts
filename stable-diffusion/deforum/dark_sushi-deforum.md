@@ -33,3 +33,24 @@ To get stable results:
 
 time: 251s
 frames: 15060
+
+Part 1 close up shot
+
+No ControlNet, only video input
+
+Test:
+Ambilight, masterpiece, ultra-high quality, (ultra detailed original illustration), octans, woman, 1girl, curly black hair, anime, geometric artstyle, junk art
+Negative prompt: easynegative, bad-picture-chill-75v, nude, nsfw, blurry
+Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 1993765611, Size: 768x512, Model hash: cca17b08da, Denoising strength: 0.5, Clip skip: 2, Version: v1.4.0
+
+Used embeddings: easynegative [119b], bad-picture-chill-75v [1eff]
+
+
+{
+    "0": "Ambilight, masterpiece, ultra-high quality, (ultra detailed original illustration), octans, woman, 1girl, beautiful green eyes, curly black hair, anime, geometric artstyle, junk art",
+    "690": "Ambilight, masterpiece, ultra-high quality, (ultra detailed original illustration), octans, woman, 1girl, beautiful green eyes, curly black hair, anime, geometric artstyle, junk art"
+}
+
+
+test2:
+D:/Premier/Projects/davinci/choose-video/test2.mp4
