@@ -197,3 +197,12 @@ https://www.youtube.com/watch?v=y5PGve7BqFc&t=59s
 
 ---
 
+## črno zrno mini project
+
+{
+    "0": "((best quality)), ((masterpiece)), (detailed), a bottle of soda sitting on top of a pile of rocks next to a river of water and a mountain, tilt shift photo, ecological art, cinematic, early in the morning, sparkles",
+    "30": "((best quality)), ((masterpiece)), (detailed), a bottle of soda sitting on top of a pile of rocks next to a river of water and a mountain, tilt shift photo, ecological art, cinematic, early in the evening, sparkles",
+    "60": "((best quality)), ((masterpiece)), (detailed), a bottle of soda sitting on top of a pile of rocks next to a river of water and a mountain, tilt shift photo, ecological art, cinematic, sunset, sparkles",
+    "90": "((best quality)), ((masterpiece)), (detailed), a bottle of soda sitting on top of a pile of rocks next to a river of water and a mountain, tilt shift photo, ecological art, cinematic, night, milky way, stars, starry, night, sparkles",
+    "120": "((best quality)), ((masterpiece)), (detailed), a bottle of soda sitting on top of a pile of rocks next to a river of water and a mountain, tilt shift photo, ecological art, cinematic, night, milky way, stars, starry, night, sparkles"
+}
