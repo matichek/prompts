@@ -23,3 +23,20 @@ https://civitai.com/images/1279466?period=AllTime&periodMode=published&sort=Newe
 ## Streamer testing images
 
 coming soon
+
+
+## Cover albums Matichek
+
+### Single - Choose
+
+(grainy:0.7),(masterpiece:1.1), best quality, absurdres, face portrait, closed eyes, extremely detailed illustration, evening, futuristic,<lora:rMadArt3_NoiseOffset:0.75>,
+girl, cape with hood, light logo , [cyberpunk clothing:torn fabric:0.25], red lights, orange lights, menacing, white hair, in middle,
+alley, neon lights, night
+Negative prompt: (low quality, worst quality:1.4), [bad-picture-chill-75v:bad-picture-chill-32v:0.5], people, (low quality, worst quality:1.2), ng_deepnegative_v1_75t, verybadimagenegative_v1.2-6400, Unspeakable-Horrors-Composition-4v,
+Steps: 42, Sampler: DPM++ SDE Karras, CFG scale: 7, Seed: 3476315456, Size: 512x512, Model hash: 4e8b9eeeff, Clip skip: 2, Lora hashes: "rMadArt3_NoiseOffset: b5ff72f9dbf5", Version: v1.4.0
+
+### Single - What to do
+
+(grainy:0.7),(masterpiece:1.1), best quality, rain,  face portrait, portal to another dimensions in the sky, village, absurdres, closed eyes, extremely detailed illustration, evening, futuristic,<lora:rMadArt3_NoiseOffset:0.75>, girl, black detailed cape with hood, light logo , [cyberpunk clothing:torn fabric:0.25], red lights, orange lights, white hair, in middle, alley, neon lights, night, mountain in the background, dawn
+Negative prompt: (low quality, worst quality:1.4), [bad-picture-chill-75v:bad-picture-chill-32v:0.5], (low quality, worst quality:1.2), ng_deepnegative_v1_75t, verybadimagenegative_v1.2-6400, Unspeakable-Horrors-Composition-4v
+Steps: 40, Sampler: DPM++ SDE Karras, CFG scale: 7, Seed: 3476315457, Size: 2048x2048, Model hash: 4e8b9eeeff, Denoising strength: 0.3, Clip skip: 2, Ultimate SD upscale upscaler: 4x-UltraSharp, Ultimate SD upscale tile_width: 512, Ultimate SD upscale tile_height: 512, Ultimate SD upscale mask_blur: 16, Ultimate SD upscale padding: 64, ControlNet 0: "preprocessor: tile_resample, model: control_v11f1e_sd15_tile [a371b31b], weight: 1, starting/ending: (0, 1), resize mode: Crop and Resize, pixel perfect: False, control mode: Balanced, preprocessor params: (64, 1, 64)", Lora hashes: "rMadArt3_NoiseOffset: b5ff72f9dbf5", Version: v1.4.1
