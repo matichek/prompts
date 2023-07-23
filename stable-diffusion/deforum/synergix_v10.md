@@ -33,6 +33,8 @@ Base frames
 
 ## Matichek - What To Do video
 
+https://youtu.be/yicVNyoOWw0
+
 
 (grainy:0.7),(masterpiece:1.1), best quality, rain,  face portrait, portal to another dimensions in the sky, modern futuristic city, absurdres, closed eyes, closed mouth, sad, beautiful, extremely detailed illustration, evening, futuristic,, girl, closed mouth, black detailed cape with hood, light logo , [cyberpunk clothing:torn fabric:0.25], red lights, orange lights, white hair, in middle, alley, neon lights, night, mountain in the background, dawn, wet, reflections, <lora:rMadArt3_NoiseOffset:0.75>, <lora:add_detail:1> 
 
@@ -69,3 +71,13 @@ Steps: 42, Sampler: DPM++ SDE Karras, CFG scale: 7, Seed: 3476315456, Size: 512x
 
 
 }
+
+
+
+## Apple + skull
+
+an apple on a table, [a skull:5]
+https://www.reddit.com/r/StableDiffusion/comments/156s26v/delayed_keywords_is_a_nice_little_trick/
+
+(an apple on a table, [a skull:3]), (masterpiece, best quality, high quality, highres, ultra-detailed),  insanely detailed and intricate, profile picture of an apple, in the middle, dramatic, cinematic, 4k, octane, realistic, early in the morning, nature
+
