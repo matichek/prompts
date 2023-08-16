@@ -1,6 +1,6 @@
 This is an example of the format I wish to have. It is in slovenian. 
 {
-    tag,patterns,responses
+tag,patterns,responses
 f_1,"""Kakšne so koristi uživanja feenugreek kapsul?""","""Koristi: Feenugreek kapsule so znane po tem, da spodbujajo splošno dobro počutje, uravnavajo krvni sladkor in povečujejo energijo. Veliko naših strank poroča o odličnih rezultatih!"""
 f_2,"""Kakšna je priporočena dnevna doza?""","""Doza: Priporočena dnevna doza je 2 kapsuli dnevno, kar je idealno za maksimalne koristi."""
 f_3,"""So kapsule primerne za vegetarijance/vegane?""","""Vegetarijansko/Vegansko: Naše kapsule so 100% veganske in brez dodanih živalskih derivatov. Skrbimo za vse življenjske sloge!"""
