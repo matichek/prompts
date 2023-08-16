@@ -43,14 +43,14 @@ f_39,"""Kakšne so ekološke prakse vaše podjetja pri pridobivanju in pakiranju
 f_40,"""Kako se feenugreek razlikuje od drugih zeliščnih dopolnil?""","""Feenugreek je edinstveno zeliščno dopolnilo, ki se že stoletja uporablja v tradicionalni medicini zaradi svojih številnih zdravstvenih koristi. Naš izdelek je posebej oblikovan, da vam ponudi najčistejšo in najučinkovitejšo formulo feenugreek na trgu. Ne zamudite te izjemne priložnosti, da izboljšate svoje zdravje naravno."""
 }
 
-And this is the new text I have and I wish to have it in the same style as the sample. 
+This is the sample format I wish to have.
 For "tag" column, please use a random letter, underscore and 3 random numbers. 
 On "patterns", extract most important questions that could be asked for the specific product, the text will be provided below. If there is less questions, you can leave it shorter. No need to be 40 rows. 
 And for the "responses", extract the corresponding answer to the column "patterns". 
 
 Write in friendly professional tone, in slovenian language. If you need more information, ask me first and then generate. 
 
-This is the new product text:
+This is the new product text and do it the same way it is above. Use the example below and start with tag - a_01
 {
     AŠVAGANDA KAPSULE Prehransko dopolnilo – 100 kapsul Adaptogen, ki pride prav, ko
 nas navija stres in se ne znamo umiriti. Ašwaganda, 1 kapsula vsebuje 400mg
