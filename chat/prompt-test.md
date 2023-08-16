@@ -1,5 +1,3 @@
-
-
 This is an example of the format I wish to have. It is in slovenian. 
 {
     tag,patterns,responses
