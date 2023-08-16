@@ -47,7 +47,22 @@ f_40,"""Kako se feenugreek razlikuje od drugih zeliščnih dopolnil?""","""Feenu
 
 And this is the new text I have and I wish to have it in the same style as the sample. 
 For "tag" column, please use a random letter, underscore and 3 random numbers. 
-On "patterns", extract most important questions that could be asked for the specific product, the text will be provided below. 
+On "patterns", extract most important questions that could be asked for the specific product, the text will be provided below. If there is less questions, you can leave it shorter. No need to be 40 rows. 
 And for the "responses", extract the corresponding answer to the column "patterns". 
 
 Write in friendly professional tone, in slovenian language. If you need more information, ask me first and then generate. 
+
+This is the new product text:
+{
+    AŠVAGANDA KAPSULE Prehransko dopolnilo – 100 kapsul Adaptogen, ki pride prav, ko
+nas navija stres in se ne znamo umiriti. Ašwaganda, 1 kapsula vsebuje 400mg
+ašvagande. Adaptogen, ki pride prav, ko nas navija stres in se ne znamo umiriti.
+Adaptogen, ki pride prav, ko nas navija stres in se ne znamo umiriti. Opozorilo
+pa velja za vse, ki so izgoreli v zadnji fazi. Kako iz izgorelosti pa na
+https://www.futuristiclife.si Uporaba: 2 kapsuli zvečer in po potrebi 2 zjutraj.
+OPOZORILO: Priporočene dnevne količine oziroma odmerka se ne sme prekoračiti.
+Prehransko dopolnilo ni nadomestilo za uravnoteženo in raznovrstno prehrano.
+Pomembno se je držati smernic zdravega načina življenja. Shranjujte nedosegljivo
+otrokom! V primeru zdravstvenih težav se pred uživanjem posvetujte z zdravnikom
+ali farmacevtom. 
+}
