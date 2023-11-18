@@ -58,3 +58,24 @@ paintings, sketches, fingers, (worst quality:2), (low quality:2), (normal qualit
 Euler a
 CFG: 7
 Denois: 0,23
+
+
+# Starlight XL 星光 Animated
+
++ lcm lora + compfy ui
+
+In the heart of an untamed wilderness, a barren shadowy rocky gorge emerges like a forgotten crevice in the Earth's rugged tapestry. Towering cliffs, draped in an eerie veil of darkness, cast elongated shadows that dance with the shifting light of the day. The jagged rocks, weathered by the relentless passage of time, jut out like ancient sentinels, their surfaces cloaked in mystery and intrigue. Deep within the crevasse, the narrow passage weaves and winds, its depths concealed by the interplay of light and shadow, creating an otherworldly ambiance that beckons both awe and trepidation. The gorge's silence is broken only by the occasional echo of unseen creatures and the distant murmur of a hidden stream, contributing to the enigmatic allure of this clandestine geological wonder, red extremely detailed high contrast, ultra high detail, ultra HD, true 4K, photorealism, cinematic, beautiful, white tree
+
+## variations with chatgpt4
+
+write me similar prompt for stable diffusion xl model "In the heart of an untamed wilderness, a barren shadowy rocky gorge emerges like a forgotten crevice in the Earth's rugged tapestry. Towering cliffs, draped in an eerie veil of darkness, cast elongated shadows that dance with the shifting light of the day. The jagged rocks, weathered by the relentless passage of time, jut out like ancient sentinels, their surfaces cloaked in mystery and intrigue. Deep within the crevasse, the narrow passage weaves and winds, its depths concealed by the interplay of light and shadow, creating an otherworldly ambiance that beckons both awe and trepidation. The gorge's silence is broken only by the occasional echo of unseen creatures and the distant murmur of a hidden stream, contributing to the enigmatic allure of this clandestine geological wonder, red extremely detailed high contrast, ultra high detail, ultra HD, true 4K, photorealism, cinematic, beautiful, white tree" - describe an angel and make a story like in prompt
+
+neg:
+(deformed, distorted, disfigured:1.3),poorly drawn,bad anatomy,wrong anatomy,extra limb,extra ears,missing limb,floating limbs,(mutated hands and fingers:1.4),disconnected limbs,mutation,mutated,ugly,disgusting,blurry,amputation,unsymmetrical eyes,bad generated nipples,extra limbs,bad generated teeth,ugly teeth,ugly hands,ugly fingers,sketch,low quality,speech bubble,text,(low quality, worst quality:1.4), monochrome, logo, watermark, mosaic censoring, palm trees,
+
+
+
+Videos:
+https://civitai.com/articles/2379/guide-comfyui-animatediff-guideworkflows-including-prompt-scheduling-an-inner-reflections-guide
+
+https://www.youtube.com/watch?v=iucrcWQ4bnE
