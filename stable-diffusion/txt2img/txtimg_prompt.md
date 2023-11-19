@@ -43,9 +43,16 @@ synergix_v10.safetensors
 Negative prompt: (low quality, worst quality:1.4), [bad-picture-chill-75v:bad-picture-chill-32v:0.5], (low quality, worst quality:1.2), ng_deepnegative_v1_75t, verybadimagenegative_v1.2-6400, Unspeakable-Horrors-Composition-4v
 Steps: 40, Sampler: DPM++ SDE Karras, CFG scale: 7, Seed: 3476315457, Size: 2048x2048, Model hash: 4e8b9eeeff, Denoising strength: 0.3, Clip skip: 2, Ultimate SD upscale upscaler: 4x-UltraSharp, Ultimate SD upscale tile_width: 512, Ultimate SD upscale tile_height: 512, Ultimate SD upscale mask_blur: 16, Ultimate SD upscale padding: 64, ControlNet 0: "preprocessor: tile_resample, model: control_v11f1e_sd15_tile [a371b31b], weight: 1, starting/ending: (0, 1), resize mode: Crop and Resize, pixel perfect: False, control mode: Balanced, preprocessor params: (64, 1, 64)", Lora hashes: "rMadArt3_NoiseOffset: b5ff72f9dbf5", Version: v1.4.1
 
-### Single - New song
+### Single - Waiting
 
+DarkSushiMix 225D - checkpoint
+vae-ft-mse-840000-ema-pruned.ckpt
 
+(masterpiece, best quality, high quality, highres, ultra-detailed), 1girl, woman, beautiful, braid, pink hair, sitting down, crossed legs, portrait, rooftop, edge, vector art, flat colors, white clouds, wind, pattern, nature, relaxed, headphones, nature, mountains, village, night, pose, blue hoodie, pants, sneakers
+
+Negative prompt: paintings, sketches, fingers, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, (outdoor:1.6), backlight,(ugly:1.331), (duplicate:1.331), (morbid:1.21), (mutilated:1.21), (tranny:1.331), mutated hands, (poorly drawn hands:1.5), blurry, (bad anatomy:1.21), (bad proportions:1.331), extra limbs, (disfigured:1.331), (more than 2 nipples:1.331), (missing arms:1.331), (extra legs:1.331), (fused fingers:1.61051), (too many fingers:1.61051), (unclear eyes:1.331), lowers, bad hands, missing fingers, extra digit, (futa:1.1),bad hands, missing fingers, bad-hands-5
+
+Steps: 21, Sampler: Euler a, CFG scale: 8, Seed: 609670520, Size: 512x512, Model hash: cca17b08da, VAE hash: ab33ad55c6, Denoising strength: 0.7, Clip skip: 2, Hires upscale: 2, Hires upscaler: Latent, TI hashes: "bad-hands-5: aa7651be154c", Version: v1.6.0-2-g4afaaf8a
 
 
 ### Portrait - img2img (Alena Aenami)
